@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="我的秘密小天地">
+  <main
+    id="content"
+    class="flex h-screen w-full items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
+  >
+    <div class="text-center px-4">
+      <!-- 主标题：在手机端字体变小，桌面端变大 -->
+      <h1 class="text-4xl sm:text-6xl font-bold text-white mb-4 animate-bounce">
+        欢迎来到我的秘密基地！
+      </h1>
+      <!-- 副标题：在手机端字体变小，桌面端变大 -->
+      <p class="text-lg sm:text-2xl text-white opacity-80">
+        博客不公开，但你可以偷偷看看这里 😉
+      </p>
+    </div>
+  </main>
+</Layout>

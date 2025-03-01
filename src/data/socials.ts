@@ -11,12 +11,12 @@ export const SOCIALS = [
   },
   {
     name: "Github",
-    url: "https://github.com/Sunhaha520",
+    url: "https://github.com/DerekSunmo",
     icon: IconGithub,
   },
   {
     name: "Blog",
-    url: "https://blog.kelejun.cn",
+    url: "/blog",
     icon: IconBlog,
   },
   {
